@@ -125,7 +125,7 @@
     }
     /* Main Styles*/
     main{
-      margin-top: 20%;
+      top: 15%;
       width: 90%;
       display: flex;
       flex-direction: column;
@@ -157,7 +157,7 @@
       transition: 0.25;
     }
     .boxes:hover{
-      width: 102%;
+      transform: scale(120%);
     }
     .boxes img{
       height: 100%;

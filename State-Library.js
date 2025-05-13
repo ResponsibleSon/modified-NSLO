@@ -28,6 +28,10 @@
       const bodyDark = document.querySelector('.js-body');
       if (bodyDark.classList.contains('body')) {
         bodyDark.classList.add('bodyDark');
+        bodyDark.classList.remove('body');
+      } else if (bodyDark.classList.contains('bodyDark')) {
+        bodyDark.classList.add('body');
+        bodyDark.classList.remove('bodyDark');
       }
     }
     

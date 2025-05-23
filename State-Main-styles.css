@@ -157,7 +157,7 @@
       transition: 0.25;
     }
     .boxes:hover{
-      transform: scale(120%);
+    /*Let ignore about scaling., causeit looks weired😒 */
     }
     .boxes img{
       height: 100%;
